@@ -1,0 +1,95 @@
+body {
+  font-family: "Roboto", sans-serif;
+  padding: 20px;
+  max-width: 1024px;
+  margin: 0 auto;
+}
+main {
+  display: block;
+  margin: 0 auto;
+  max-width: 700px;
+}
+main .item {
+  width: 200px;
+  margin: 0 50px 0 0;
+  line-height: 20px;
+}
+main .item:last-child {
+  margin: 0;
+}
+.head {
+  display: flex;
+  flex-direction: row;
+}
+.head .logo {
+  margin: 30px 10px 10px 90px;
+}
+
+.head .logo img {
+  width: 280px;
+  height: 310px;
+}
+
+.head .info h1 {
+  font-size: 42px;
+}
+.head .info h2 {
+  background-color: rgb(230, 176, 96);
+  padding: 7px;
+  border-radius: 5px;
+  font-size: 20px;
+  margin: 0;
+}
+.head .info img {
+  vertical-align: -19px;
+  margin: 5px 10px 10px 0;
+}
+.goal p {
+  text-indent: 20px;
+}
+main .skills {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+main .item h3 {
+  background-color: rgb(230, 176, 96);
+  padding: 7px;
+  border-radius: 5px;
+}
+main .sub_skills {
+  display: flex;
+  flex-direction: row;
+}
+
+@media only all and (max-width: 600px) {
+  article {
+    width: 100%;
+  }
+  body {
+    padding: 5px;
+  }
+  .head {
+    display: flex;
+    flex-direction: column;
+  }
+  .head .info h2 {
+    font-size: 16px;
+    max-width: 285px;
+  }
+  .head .logo {
+    margin: 10px 0 0 0;
+  }
+  main .skills {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  main .sub_skills {
+    display: flex;
+    flex-direction: column;
+  }
+  hr {
+    display: none;
+  }
+}
