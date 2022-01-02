@@ -7,26 +7,16 @@ I like to see process and final result of my work.
 4. I have some skills in Html5 and CSS3. Also I am familiar with the SASS preprocessor, Bootstrap 5, basic JS, basic React.
 5. Example code    
 
-   function finalGrade (exam, projects) {   
-   
-   if (exam > 90 || projects > 10 ) {   
-   
-   return (100)};  
-  
-   if (exam > 75 & projects >= 5 ) {  
-  
-   return (90)  
-  
+   function finalGrade (exam, projects) { 
+      if (exam > 90 || projects > 10 ) {   
+      return (100)};  
+      if (exam > 75 & projects >= 5 ) {  
+      return (90)  
    };  
-  
-   if (exam > 50 & projects >= 2 ) { 
- 
-   return (75)  
-  
-   }; 
- 
-   {return 0}; 
- 
+      if (exam > 50 & projects >= 2 ) { 
+      return (75)  
+   };  
+   {return 0};  
    }  
   
    finalGrade(100, 12)
