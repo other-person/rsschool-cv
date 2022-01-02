@@ -8,6 +8,10 @@ main {
   display: block;
   margin: 0 auto;
   max-width: 700px;
+  background-color: rgb(247, 222, 112);
+  padding: 15px;
+  border-radius: 7px;
+  border: solid 1px black;
 }
 main .item {
   width: 200px;
@@ -28,6 +32,7 @@ main .item:last-child {
 .head .logo img {
   width: 280px;
   height: 310px;
+  border-radius: 7px;
 }
 
 .head .info h1 {
