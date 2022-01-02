@@ -7,42 +7,29 @@ I like to see process and final result of my work.
 4. I have some skills in Html5 and CSS3. Also I am familiar with the SASS preprocessor, Bootstrap 5, basic JS, basic React.
 5. Example code    
 
-
-   function finalGrade (exam, projects) {
+   function finalGrade (exam, projects) {   
    
+   if (exam > 90 || projects > 10 ) {   
    
-   if (exam > 90 || projects > 10 ) {
-   
-   
-  return (100)};
+   return (100)};  
   
+   if (exam > 75 & projects >= 5 ) {  
   
-  if (exam > 75 & projects >= 5 ) {
+   return (90)  
   
+   };  
   
-  return (90)
-  
-  
-  };
-  
-  
- if (exam > 50 & projects >= 2 ) {
+   if (exam > 50 & projects >= 2 ) { 
  
- 
-  return (75)
+   return (75)  
   
+   }; 
+ 
+   {return 0}; 
+ 
+   }  
   
- };
- 
- 
- {return 0};
- 
- 
-  }
-  
-  
-finalGrade(100, 12)
-
+   finalGrade(100, 12)
 
 6. I have experience of creating a website in Html5, Css3, basic JS, basic React.
 7. Last year I studied at the IT ACADEMY
