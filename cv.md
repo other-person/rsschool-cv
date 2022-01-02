@@ -1,5 +1,5 @@
 1. **Taras Bazhenka**.
-2. **My email**: bazhenkataras@gmail.com. **Phone number**: +375297388555 or +375298673579.
+2. **My email**: bazhenkataras@gmail.com. **Phone number**: +375297388555 or +375298673579. **Name in discord** : Other-person.
 3. My goal is to get into the it sphere, because this is the future and this sphere has big potential.
 I would like to constantly grow as front-end developer, as well as to develop team work skill. 
 The team is important because it creates an atmosphere in which you want to learn and develop. 
